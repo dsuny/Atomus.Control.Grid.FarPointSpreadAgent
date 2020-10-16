@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D71E0067-DBA1-42B0-8E47-612801E57707}"
+	ProjectSection(SolutionItems) = preProject
+		src\FarPointSpreadAgent.cs = src\FarPointSpreadAgent.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "dotNet", "dotNet", "{0C23D6F5-3614-4131-AC65-8B92F002D030}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Atomus.Control.Grid.FpSpreadAgent.V5.0(dotNet)", "dotNet\FarPoint.v5.0\Atomus.Control.Grid.FpSpreadAgent.V5.0(dotNet).csproj", "{5896CA06-BE70-40ED-8EBF-7444AA0FBF75}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5896CA06-BE70-40ED-8EBF-7444AA0FBF75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5896CA06-BE70-40ED-8EBF-7444AA0FBF75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5896CA06-BE70-40ED-8EBF-7444AA0FBF75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5896CA06-BE70-40ED-8EBF-7444AA0FBF75}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5896CA06-BE70-40ED-8EBF-7444AA0FBF75} = {0C23D6F5-3614-4131-AC65-8B92F002D030}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3C25F5FC-CD96-419A-B672-F8A7A5D9DF09}
+	EndGlobalSection
+EndGlobal
